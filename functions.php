@@ -157,53 +157,29 @@ function twentyeleven_setup() {
 
 	// Default custom headers packaged with the theme. %s is a placeholder for the theme template directory URI.
 	register_default_headers( array(
-		'wheel' => array(
-			'url' => '%s/images/headers/wheel.jpg',
-			'thumbnail_url' => '%s/images/headers/wheel-thumbnail.jpg',
+		'sextant' => array(
+			'url' => '%s/images/headers/sextand.jpg',
+			'thumbnail_url' => '%s/images/headers/sextant-thumbnail.jpg',
 			/* translators: header image description */
-			'description' => __( 'Wheel', 'twentyeleven' )
+			'description' => __( 'Sextant', 'twentyeleven' )
 		),
-		'shore' => array(
-			'url' => '%s/images/headers/shore.jpg',
-			'thumbnail_url' => '%s/images/headers/shore-thumbnail.jpg',
+		'compass' => array(
+			'url' => '%s/images/headers/compass.jpg',
+			'thumbnail_url' => '%s/images/headers/compass-thumbnail.jpg',
 			/* translators: header image description */
-			'description' => __( 'Shore', 'twentyeleven' )
+			'description' => __( 'Compass', 'twentyeleven' )
 		),
-		'trolley' => array(
-			'url' => '%s/images/headers/trolley.jpg',
-			'thumbnail_url' => '%s/images/headers/trolley-thumbnail.jpg',
+		'map' => array(
+			'url' => '%s/images/headers/map.jpg',
+			'thumbnail_url' => '%s/images/headers/map-thumbnail.jpg',
 			/* translators: header image description */
-			'description' => __( 'Trolley', 'twentyeleven' )
+			'description' => __( 'map', 'twentyeleven' )
 		),
-		'pine-cone' => array(
-			'url' => '%s/images/headers/pine-cone.jpg',
-			'thumbnail_url' => '%s/images/headers/pine-cone-thumbnail.jpg',
+		'world' => array(
+			'url' => '%s/images/headers/world.jpg',
+			'thumbnail_url' => '%s/images/headers/world-thumbnail.jpg',
 			/* translators: header image description */
-			'description' => __( 'Pine Cone', 'twentyeleven' )
-		),
-		'chessboard' => array(
-			'url' => '%s/images/headers/chessboard.jpg',
-			'thumbnail_url' => '%s/images/headers/chessboard-thumbnail.jpg',
-			/* translators: header image description */
-			'description' => __( 'Chessboard', 'twentyeleven' )
-		),
-		'lanterns' => array(
-			'url' => '%s/images/headers/lanterns.jpg',
-			'thumbnail_url' => '%s/images/headers/lanterns-thumbnail.jpg',
-			/* translators: header image description */
-			'description' => __( 'Lanterns', 'twentyeleven' )
-		),
-		'willow' => array(
-			'url' => '%s/images/headers/willow.jpg',
-			'thumbnail_url' => '%s/images/headers/willow-thumbnail.jpg',
-			/* translators: header image description */
-			'description' => __( 'Willow', 'twentyeleven' )
-		),
-		'hanoi' => array(
-			'url' => '%s/images/headers/hanoi.jpg',
-			'thumbnail_url' => '%s/images/headers/hanoi-thumbnail.jpg',
-			/* translators: header image description */
-			'description' => __( 'Hanoi Plant', 'twentyeleven' )
+			'description' => __( 'World', 'twentyeleven' )
 		)
 	) );
 }
